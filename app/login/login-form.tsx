@@ -17,7 +17,7 @@ function SubmitButton() {
 }
 
 export function LoginForm() {
-  const [state, formAction] = useFormState(signIn, { error: null });
+  const [state, formAction] = useFormState(signIn, { error: "" });
 
   return (
     <form action={formAction} className="space-y-4">
